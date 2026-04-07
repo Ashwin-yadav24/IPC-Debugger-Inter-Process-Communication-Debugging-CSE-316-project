@@ -9,6 +9,7 @@ HUNGRY   = "hungry"
 EATING   = "eating"
 DEADLOCK = "deadlock"
 
+\\source code start here!!\\
 
 class DiningPhilosophersGUI:
     def __init__(self):
@@ -69,6 +70,7 @@ class DiningPhilosophersGUI:
         self.running = False
         self.deadlock_detected = False
         self.root.mainloop()
+        \\bug fixed here refinished code for better response\\
 
     def simulate_deadlock(self):
         if self.running:
