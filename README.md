@@ -1,66 +1,93 @@
-#🧠 IPC Debugger Tool
+# 🧠 IPC Debugger Tool  
+### Inter-Process Communication Debugging Simulator (CSE-316 Project)
 
-#Inter-Process Communication Debugging Simulator (CSE-316 Project)
+---
 
-📌 Overview
+## 📌 Overview
+The **IPC Debugger Tool** is a Python-based GUI simulator that helps visualize **Inter-Process Communication (IPC)** mechanisms.
 
-The IPC Debugger Tool is a Python-based GUI simulator that visualizes different Inter-Process Communication (IPC) mechanisms. It enables users to observe how processes communicate and synchronize in real time.
+It allows users to understand how processes communicate and synchronize using:
+- Pipes  
+- Message Queues  
+- Shared Memory  
+- Deadlock visualization  
 
-The tool demonstrates:
+This project is designed for **Operating System learning** with real-time interactive debugging.
 
-Pipes
-Message Queues
-Shared Memory
-Deadlock scenarios
+---
 
-It is designed to help students understand complex OS concepts like process states, synchronization, and race conditions through interactive visualization.
+## 🚀 Features
 
-🚀 Features
-🎯 Interactive GUI-based simulation
-🔄 Real-time process communication visualization
-📡 IPC mechanisms supported:
-Pipe Simulation
-Message Queue Simulation
-Shared Memory Simulation
-⚠️ Deadlock visualization (deadlock_visualizer.py)
-🧵 Process state tracking
-🔐 Synchronization and race condition demonstration
-🛠️ Technologies Used
-Python 3
-Tkinter (GUI)
-Multiprocessing & OS concepts
-Custom simulation logic
-📂 Project Structure
+- 🎯 Interactive GUI simulation  
+- 🔄 Real-time communication visualization  
+- 📡 Supports:
+  - Pipes
+  - Message Queues
+  - Shared Memory  
+- ⚠️ Deadlock visualization  
+- 🧵 Process state tracking  
+- 🔐 Race condition & synchronization demo  
+
+---
+
+## 🛠️ Tech Stack
+
+- **Python 3**
+- **Tkinter (GUI)**
+- **Multiprocessing concepts**
+
+---
+
+## 📂 Project Structure
 IPC-Debugger/
 │
-├── main_app.py              # Main application logic
-├── main_gui.py              # GUI controller
-├── visual_gui.py            # Visualization UI
-├── visual_gui_step4.py      # Enhanced UI version
-├── deadlock_visualizer.py   # Deadlock simulation
+├── main_app.py
+├── main_gui.py
+├── visual_gui.py
+├── visual_gui_step4.py
+├── deadlock_visualizer.py
 │
 ├── pipe_simulation.py
 ├── message_queue_sim.py
 ├── shared_memory_sim.py
 │
-├── step1_demo.py            # Demo/testing script
-├── requirement.txt          # Dependencies
+├── step1_demo.py
+├── requirement.txt
 └── README.md
-⚙️ Installation
-Clone the repository:
+
+
+---
+
+## ⚙️ Installation
 git clone https://github.com/Ashwin-yadav24/IPC-Debugger-Inter-Process-Communication-Debugging-CSE-316-project.git
 cd IPC-Debugger-Inter-Process-Communication-Debugging-CSE-316-project
-Install dependencies:
 pip install -r requirement.txt
-Run the project:
 python main_app.py
-🧪 How It Works
-Launch the GUI
-Select an IPC method
+🧪 How to Use
+Run the application
+Select IPC method
 Create processes
-Perform communication
+Send/receive data
 Observe:
-Data transfer
 Process states
-Synchronization
+Data flow
 Deadlocks
+Synchronization
+👥 Team Members
+Kumar Yashansh
+Himanshu Kumar
+Ashwin Kumar Yadav
+📊 Use Cases
+OS Lab Project
+IPC Learning
+Debugging simulations
+Academic demonstrations
+⚠️ Limitations
+Not a real OS-level debugger
+Limited scalability
+GUI depends on system performance
+🔮 Future Improvements
+Socket-based IPC
+Distributed simulation
+Better UI animations
+Execution timeline
