@@ -1,6 +1,6 @@
-🧠 IPC Debugger Tool
+#🧠 IPC Debugger Tool
 
-Inter-Process Communication Debugging Simulator (CSE-316 Project)
+#Inter-Process Communication Debugging Simulator (CSE-316 Project)
 
 📌 Overview
 
