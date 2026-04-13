@@ -63,7 +63,9 @@ git clone https://github.com/Ashwin-yadav24/IPC-Debugger-Inter-Process-Communica
 cd IPC-Debugger-Inter-Process-Communication-Debugging-CSE-316-project
 pip install -r requirement.txt
 python main_app.py
-🧪 How to Use
+
+
+## 🧪 How to Use
 Run the application
 Select IPC method
 Create processes
@@ -73,16 +75,16 @@ Process states
 Data flow
 Deadlocks
 Synchronization
-👥 Team Members
+## 👥 Team Members
 Kumar Yashansh
 Himanshu Kumar
 Ashwin Kumar Yadav
-📊 Use Cases
+## 📊 Use Cases
 OS Lab Project
 IPC Learning
 Debugging simulations
 Academic demonstrations
-⚠️ Limitations
+## ⚠️ Limitations
 Not a real OS-level debugger
 Limited scalability
 GUI depends on system performance
@@ -91,3 +93,5 @@ Socket-based IPC
 Distributed simulation
 Better UI animations
 Execution timeline
+
+
