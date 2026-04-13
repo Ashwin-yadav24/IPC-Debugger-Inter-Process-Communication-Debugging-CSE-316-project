@@ -28,8 +28,7 @@ def run_command(command, output_box, status_label):
 
     threading.Thread(target=task).start()
 
-\\reviewed this sectionfixed all bugs!!!
-\\file no:- ASYH90
+
 
 def main_gui():
     root = tk.Tk()
