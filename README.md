@@ -87,7 +87,7 @@ This project is for educational purposes.
 
 ## 👨‍💻 Author
 
-**Ashwin Kumar Yadav, Himanshu Kumar , Kumar Yashansh**
+**Kumar Yashansh,Ashwin Kumar Yadav, Himanshu Kumar **
 
 ---
 
